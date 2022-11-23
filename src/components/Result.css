@@ -1,0 +1,9 @@
+button,
+[type="button"],
+[type="reset"],
+[type="submit"] {
+  background-color: #1890ff !important;
+}
+#kakao-link-btn {
+  background-color: white !important;
+}

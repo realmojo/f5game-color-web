@@ -1,0 +1,42 @@
+.board-container {
+  max-width: 500px;
+  margin: 0 auto;
+}
+.ant-page-header {
+  padding: 10px 24px !important;
+}
+
+.btn-start {
+  min-width: 280px;
+  max-width: 336px;
+  height: 50px;
+  font-size: 18px;
+  font-weight: bold;
+  background-color: #1890ff;
+  border-color: #1890ff;
+  border-radius: 2px;
+  color: white;
+  border-style: none;
+  cursor: pointer;
+}
+.btn-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 10px 0;
+}
+.btn-start:hover {
+  background-color: #3d9ffc;
+}
+article {
+  padding: 20px;
+}
+article > .post > h2 {
+  font-size: 32px;
+}
+.post {
+  margin-top: 20px;
+}
+.post p {
+  color: #2d2e30;
+}
