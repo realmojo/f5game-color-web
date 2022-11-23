@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from "react";
-import { Image } from "antd";
 import "./Home.css";
 import { Link } from "react-router-dom";
 import { AdsenseMain } from "./adsense/main";
@@ -10,23 +9,15 @@ export const Home = () => {
   useEffect(() => {
     setTimeout(() => {
       setIsAdsense(true);
-    }, 100);
+    }, 10);
     return setIsAdsense(false);
   }, []);
 
   return (
     <div>
       <div className="play-container">
-        <div className="text-center text-3xl my-3">
+        <div className="text-center text-2xl my-3">
           <h1>색맹 테스트, 색상 사색자 테스트</h1>
-        </div>
-        <div className="text-center">
-          <Image
-            src="https://f5game.s3.ap-northeast-2.amazonaws.com/color.png"
-            style={{ width: "100%", maxWidth: 400, margin: "0 auto" }}
-            alt="memory"
-            preview={false}
-          />
         </div>
         <div className="my-4">{isAdsense ? <AdsenseMain /> : ""}</div>
         <div>
