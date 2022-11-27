@@ -40,7 +40,7 @@ export const Share = () => {
         container: "#kakao-link-btn",
         objectType: "feed",
         content: {
-          title: "F5 Games - 색맹 테스트, 색상 사색자 테스트",
+          title: "색맹 테스트, 색상 사색자 테스트 - F5 Games",
           description:
             "색상이 비슷하지만 다른 하나를 찾아보세요. 당신이 사색자일수도 있습니다. 총 60단계 까지 있습니다.",
           imageUrl: "https://f5game.s3.ap-northeast-2.amazonaws.com/color.png",
